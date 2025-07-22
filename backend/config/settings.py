@@ -17,7 +17,7 @@ SECRET_KEY = "django-insecure-m)+n5cp=^9^8+k-*sfw_hpm=*u$*8=hp4b+4+sv8jss!wcuh3m
 
 DEBUG = True  # 本番では False にし、環境変数で上書きする
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "https://motive-iji.onrender.com"]
 
 # ------------------------------------------------------------------
 # アプリケーション定義
